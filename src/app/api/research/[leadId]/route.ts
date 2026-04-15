@@ -45,14 +45,17 @@ export async function POST(
   });
 
   const client = getAnthropicClient();
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const message = await client.messages.create({
     model: "claude-haiku-4-5-20251001",
-    max_tokens: 1024,
+    max_tokens: 2048,
+    tools: [{ type: "web_search_20250305", name: "web_search" }] as any,
     messages: [{ role: "user", content: prompt }],
-  });
+  } as any);
 
-  const rawText =
-    message.content[0].type === "text" ? message.content[0].text : "";
+  // Web search adds tool_use blocks — find the last text block (the final answer)
+  const textBlock = [...message.content].reverse().find((b) => b.type === "text");
+  const rawText = textBlock?.type === "text" ? textBlock.text : "";
 
   // Strip markdown code fences if Claude wrapped the response
   const jsonText = rawText
