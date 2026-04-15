@@ -1,0 +1,22 @@
+{
+  "businessName": "Westview Family Dental",
+  "city": "Mississauga",
+  "phone": "905-555-0187",
+  "address": "240 Hurontario St, Mississauga, ON",
+  "headline": "Your Smile Deserves Expert Care",
+  "subheadline": "Gentle, comprehensive dentistry for the whole family — from first checkups to complete smile transformations.",
+  "cta": "Request an Appointment",
+  "about": "Westview Family Dental has served Mississauga families for over 15 years. We combine modern dental technology with a calm, welcoming environment so patients of all ages feel comfortable and cared for. Our team takes the time to explain every treatment clearly — no surprises, no pressure.",
+  "services": [
+    { "name": "Preventive Care", "description": "Regular cleanings, exams, and X-rays to keep your smile healthy." },
+    { "name": "Teeth Whitening", "description": "Professional in-office whitening for visible results in one visit." },
+    { "name": "Dental Implants", "description": "Permanent, natural-looking replacements for missing teeth." },
+    { "name": "Invisalign", "description": "Discreet, removable aligners to straighten your smile over time." },
+    { "name": "Emergency Care", "description": "Same-day appointments for tooth pain, broken teeth, and urgent issues." },
+    { "name": "Children's Dentistry", "description": "A friendly, gentle approach that makes kids actually look forward to the dentist." }
+  ],
+  "primaryColor": "#0f172a",
+  "accentColor": "#0ea5e9",
+  "metaTitle": "Westview Family Dental | Mississauga",
+  "metaDescription": "Gentle family dentistry in Mississauga. Accepting new patients. Call 905-555-0187."
+}

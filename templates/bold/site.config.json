@@ -1,0 +1,21 @@
+{
+  "businessName": "Iron Edge Barbershop",
+  "city": "Toronto",
+  "phone": "416-555-0142",
+  "address": "88 King St W, Toronto, ON",
+  "headline": "Sharp Cuts.\nNo Compromises.",
+  "subheadline": "Precision fades and classic cuts for the man who knows what he wants.",
+  "cta": "Book Your Appointment",
+  "about": "Iron Edge has been the go-to barbershop on King Street for over a decade. We don't do rushed cuts or cookie-cutter styles — every client gets the chair time they deserve. Walk in with a look in mind. Walk out sharper than you came.",
+  "services": [
+    { "name": "Signature Fade", "description": "Tapered to perfection with a straight razor finish." },
+    { "name": "Classic Cut", "description": "Scissor work and precision shears, no guards." },
+    { "name": "Hot Towel Shave", "description": "Old-school straight razor shave with pre-shave oil and hot towel." },
+    { "name": "Beard Lineup", "description": "Crisp edges, sculpted beard lines, zero strays." },
+    { "name": "Kids Cut", "description": "Patient, experienced barbers for boys 12 and under." }
+  ],
+  "primaryColor": "#0f0f0f",
+  "accentColor": "#ea580c",
+  "metaTitle": "Iron Edge Barbershop | Toronto",
+  "metaDescription": "Precision fades and classic cuts in Toronto. Iron Edge Barbershop — King St W."
+}

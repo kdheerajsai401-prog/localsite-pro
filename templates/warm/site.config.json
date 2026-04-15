@@ -1,0 +1,21 @@
+{
+  "businessName": "Maple Corner Convenience",
+  "city": "Brampton",
+  "phone": "905-555-0231",
+  "address": "14 Kennedy Rd N, Brampton, ON",
+  "headline": "Everything You Need, Right Around the Corner",
+  "subheadline": "Fresh groceries, hot coffee, and everyday essentials — open early, open late.",
+  "cta": "Find Us Today",
+  "about": "Maple Corner has been part of the Kennedy Road neighbourhood since 2009. We stock fresh produce, local bakery items, and all the everyday essentials your household needs. Our team knows our regulars by name, and we take pride in keeping shelves stocked and service friendly.",
+  "services": [
+    { "name": "Fresh Produce", "description": "Seasonal fruit and vegetables, restocked daily." },
+    { "name": "Hot Beverages", "description": "Freshly brewed coffee, tea, and hot chocolate all day." },
+    { "name": "Grocery Staples", "description": "Bread, dairy, canned goods, and household must-haves." },
+    { "name": "Lottery & Gifts", "description": "OLG lottery tickets, gift cards, and greeting cards." },
+    { "name": "Bill Payments", "description": "Pay utility bills, top up transit cards, and more in-store." }
+  ],
+  "primaryColor": "#1c1917",
+  "accentColor": "#d97706",
+  "metaTitle": "Maple Corner Convenience | Brampton",
+  "metaDescription": "Your neighbourhood convenience store in Brampton. Open 7 days. Fresh produce, coffee, and everyday essentials."
+}
