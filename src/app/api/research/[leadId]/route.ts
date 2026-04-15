@@ -54,6 +54,12 @@ export async function POST(
   const rawText =
     message.content[0].type === "text" ? message.content[0].text : "";
 
+  // Strip markdown code fences if Claude wrapped the response
+  const jsonText = rawText
+    .replace(/^```(?:json)?\s*/i, "")
+    .replace(/\s*```$/, "")
+    .trim();
+
   let parsed: {
     services: string[];
     description: string;
@@ -62,7 +68,7 @@ export async function POST(
   };
 
   try {
-    parsed = JSON.parse(rawText);
+    parsed = JSON.parse(jsonText);
   } catch {
     return NextResponse.json(
       { error: "Claude returned invalid JSON", raw: rawText },
